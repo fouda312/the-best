@@ -290,7 +290,18 @@ word-spacing: 2px;
 .header .megamenu .links li a i{
     padding-right: 25px;
 }
-
+.spikes{
+    position: relative;
+}
+.spikes::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    background-image: linear-gradient(120deg, white 25% ,transparent 25%),linear-gradient(235deg, white 25% ,transparent 25%);
+    background-size: 150px;
+}
 
 /* end megamenu */
 /* end header */
@@ -1559,14 +1570,23 @@ gap: 30px;
 text-transform: capitalize;
 font-size: 40px;
 color: white;
-
 margin: 25px 0;
+}
+   @media (max-width:768px){
+ .footer .box-foot:first-of-type{
+text-align: center;
+}
 }
 .footer .box-foot:first-of-type ul{
     display: flex;
     width: 100%;
     justify-content: flex-start;
     gap: 15px;
+}
+   @media (max-width:768px){
+ .footer .box-foot:first-of-type ul{
+justify-content: center;
+}
 }
 .footer .box-foot:first-of-type ul li{
     max-width: 100%;
