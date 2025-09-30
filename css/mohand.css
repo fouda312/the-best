@@ -1451,7 +1451,7 @@ display: block;
 text-align: center;
 width: 50%;
 color: white;
-background-image: url("/image/blue.jpg");
+background-image: url(../image/blue.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 padding: 20px;
