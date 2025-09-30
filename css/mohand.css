@@ -1375,7 +1375,7 @@ bottom: 0;
  /* end top videos */
  /* start awesome */
  .awesome{
-background-image: url(/image/code-white.jpg);
+background-image: url("../image/code-white.jpg");
 background-size: cover;
 padding-bottom: var(--main-padding);
 padding-top: var(--main-padding);
@@ -1462,7 +1462,7 @@ display: block;
 text-align: center;
 width: 50%;
 color: white;
-background-image: url(/image/blue.jpg);
+background-image: url("../image/blue.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 padding: 20px;
